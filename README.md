@@ -242,7 +242,7 @@ WITH (
 > 
 > 
 > 
-> ![pLAB3_7.png](pLAB3_7.png)
+> ![img/pLAB3_7.png](pLAB3_7.png)
 > 
 
 ## 6. Limpieza de recursos
