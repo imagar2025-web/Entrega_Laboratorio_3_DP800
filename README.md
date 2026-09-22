@@ -42,7 +42,7 @@ FROM SalesLT.ProductCategory;
 > 
 > 
 > 
-> ![pLAB3_1.png](pLAB3_1.png)
+> ![img/pLAB3_1.png](img/pLAB3_1.png)
 > 
 
 ## 3. Construcción de salida JSON a partir de datos de productos
@@ -69,7 +69,7 @@ FOR JSON PATH;
 > 
 > 
 > 
-> ![pLAB3_2.png](pLAB3_2.png)
+> ![img/pLAB3_2.png](img/pLAB3_2.png)
 > 
 
 ### 3.2 Crear JSON anidado con categorías de producto
@@ -98,7 +98,7 @@ FOR JSON PATH;
 > 
 > 
 > 
-> ![pLAB3_3.png](pLAB3_3.png)
+> ![img/pLAB3_3.png](img/pLAB3_3.png)
 > 
 
 ## 4. Combinar JSON con una CTE y una función de ventana
@@ -140,7 +140,7 @@ ORDER BY CategoryName, PriceRank;
 > 
 > 
 > 
-> ![pLAB3_4.png](pLAB3_4.png)
+> ![img/pLAB3_4.png](img/pLAB3_4.png)
 > 
 
 ### 4.2 Exportar los productos rankeados como JSON
@@ -178,7 +178,7 @@ FOR JSON PATH, ROOT('TopProducts');
 > 
 > 
 > 
-> ![pLAB3_5.png](pLAB3_5.png)
+> ![img/pLAB3_5.png](img/pLAB3_5.png)
 > 
 
 ## 5. Parsear datos JSON con OPENJSON
@@ -204,13 +204,12 @@ WITH (
 );
 ```
 
-> ✍️ **[RELLENAR CON TUS PALABRAS: Explica para qué sirve la cláusula `WITH` en `OPENJSON` y qué indica la sintaxis `$.PropertyName`]**
-> 
+
 
 > 
 > 
 > 
-> ![pLAB3_6.png](pLAB3_6.png)
+> ![img/pLAB3_6.png](img/pLAB3_6.png)
 > 
 
 ### 5.2 Unir el JSON parseado con datos existentes
@@ -242,7 +241,7 @@ WITH (
 > 
 > 
 > 
-> ![img/pLAB3_7.png](pLAB3_7.png)
+> ![img/img/pLAB3_7.png](img/pLAB3_7.png)
 > 
 
 ## 6. Limpieza de recursos
